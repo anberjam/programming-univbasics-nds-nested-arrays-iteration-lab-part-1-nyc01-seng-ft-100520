@@ -5,9 +5,8 @@ counter = 0
     while src[counter].count > inner do
       if src[counter][inner].even?
         p src[counter][inner]
+      end
         inner+=1 
-      else
-        inner+=1
       end
     end
     counter +=1
