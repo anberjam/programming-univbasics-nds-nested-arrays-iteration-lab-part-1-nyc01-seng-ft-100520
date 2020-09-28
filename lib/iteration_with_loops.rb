@@ -3,7 +3,7 @@ counter = 0
   while src.count > counter do
     inner=0
     while src[counter].count > inner do
-      if src[counter][inner]%2==0
+      if src[counter][inner].even?
         p src[counter][inner]
         inner+=1 
       else
