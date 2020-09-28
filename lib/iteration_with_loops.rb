@@ -8,7 +8,6 @@ counter = 0
       end
         inner+=1 
       end
-    end
     counter +=1
   end
 end
