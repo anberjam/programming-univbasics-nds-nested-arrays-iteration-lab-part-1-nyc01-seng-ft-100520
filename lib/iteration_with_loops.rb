@@ -9,6 +9,7 @@ counter = 0
       else
         inner+=1
       end
+    end
     counter +=1
   end
 end
