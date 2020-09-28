@@ -1,8 +1,8 @@
 def find_even_values(src)
 counter = 0
-inner = 0
-  while src.length > counter do
-    while src[counter].length > inner do
+  while src.count > counter do
+    inner=0
+    while src[counter].count > inner do
       if src[counter][inner]%2==0
         p src[counter][inner]
         inner+=1 
